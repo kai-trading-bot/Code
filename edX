@@ -1,0 +1,52 @@
+
+
+<!--Khizar Qureshi-->
+<!--This version: 2015-08-20-—>
+
+<!—-The purpose of this document is to 
+(i) Provide a template for multiple choice problems, 
+(ii) Introduce XML Syntax that is relevant to the edX interface.-->
+
+<problem>
+<br/>
+<p><strong> Problem 1 part b </strong></p>							<!--Problem Title with Bold Interface-->
+
+<p> Which of the following is the correct answer? </p>				<!--Problem Content-->
+
+	<multiplechoiceresponse>										<!--Problem Type i.e. MC/FR-->
+	<choicegroup type="MultipleChoice" shuffle="true">
+	
+	<choice correct="true" name=“1bA”>								<!--Correctness factor, label, answer-->
+	<text> answer A </text>
+	</choice>
+
+	<choice correct=“false” name="1bB”>
+	<text> answer B </text>
+	</choice>
+
+	<choice correct="false" name="1bC”>
+	<text> answer C </text>
+	</choice>
+
+	<choice correct="false" name="1bD”>
+	<text> answer D </text>
+	</choice>
+
+	<choice correct="false" name="1bE”>
+	<text> answer E </text>
+	</choice>
+
+	</choicegroup>													<!--Close response set-->
+	</multiplechoiceresponse>
+
+<solution explanation-id="correct">									<!--Correct solution-->
+<div class="detailed-solution">
+<h2> Explanation </h2>												<!--Solution Title-->
+<p><strong> Solution </strong></p>									<!--Solution Content-->
+<p> The correct answer is Answer A </p>
+<p> It is intuitively obvious </p>
+</div>
+</solution>															<!--Close solution-->
+
+</problem>															<!--Close problem-->
+	
